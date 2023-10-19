@@ -1,1 +1,1 @@
-export { toggleMenu } from './toggleMenu/toggleMenu'
+export { toggleMenu } from "./toggleMenu/toggleMenu";

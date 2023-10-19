@@ -1,3 +1,3 @@
 export function getVideoById() {
-    return 'ok'
+  return "ok";
 }
