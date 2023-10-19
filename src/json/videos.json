@@ -1,0 +1,256 @@
+{
+    "Introdução ao JavaScript": [
+        {
+            "id": "como-instalar-e-utilizar-o-vscode",
+            "src": "https://www.youtube.com/embed/LGXAXysqESQ",
+            "title": "Como instalar e utilizar o Visual Studio Code",
+            "description": "Seja muito bem-vindo(a) ao universo da programação. Nesse vídeo introdutório, vamos mostrar o que vão aprender, o que é programar, como programar e também a fazer o seu primeiro programa."
+        },
+        {
+            "id": "javascript-introducao",
+            "src": "https://www.youtube.com/embed/VdhSFDAHkJ8",
+            "title": "Introdução",
+            "description": "Seja muito bem-vindo(a) ao universo da programação. Nesse vídeo introdutório, vamos mostrar o que vão aprender, o que é programar, como programar e também a fazer o seu primeiro programa."
+        },
+        {
+            "id": "javascript-primeiros-passos",
+            "src": "https://www.youtube.com/embed/gFUnXLimLDQ",
+            "title": "Primeiros passos",
+            "description": "Nesse vídeo você dará os primeiros passos em JavaScript, aprendendo a exibir mensagens no navegador."
+        },
+        {
+            "id": "javascript-comentarios",
+            "src": "https://www.youtube.com/embed/cmEJiEgJN4o",
+            "title": "Comentários",
+            "description": "Nesse vídeo você aprenderá a deixar comentários em seu programa. Que é uma forma de deixar seu código mais organizado e de fácil entendimento, tanto pra você, quanto para outras pessoas."
+        },
+        {
+            "id": "javascript-variaveis",
+            "src": "https://www.youtube.com/embed/XxV4MHi6PYQ",
+            "title": "Variáveis",
+            "description": "Nessa aula você aprenderá a alocar espaços na memória do computador para armazenar informações, chamadas de variáveis. Um dos assuntos mais importantes de se aprender para dominar qualquer linguagem de programação."
+        },
+        {
+            "id": "javascript-entrada-de-dados-com-prompt",
+            "src": "https://www.youtube.com/embed/k5PdO6sXC-s",
+            "title": "Entrada de dados com prompt",
+            "description": "Nessa aula vamos aprender a trazer informações para dentro do código. Através do comando prompt(), conseguimos conversar com o usuário do nosso programa, e pedir informações (dados) para poder trabalhar com eles."
+        },
+        {
+            "id": "javascript-concatenacao",
+            "src": "https://www.youtube.com/embed/QssWKsminZg",
+            "title": "Concatenação",
+            "description": "Nessa aula a gente vai aprender a juntar textos e variáveis através da concatenação."
+        },
+        {
+            "id": "javascript-tipos-de-dados",
+            "src": "https://www.youtube.com/embed/yYpuhmgMn90",
+            "title": "Tipos de Dados",
+            "description": "Nessa aula vamos aprender sobre os tipos de dados existentes no JavaScript. Textos, números, verdadeiro ou falso e etc."
+        },
+        {
+            "id": "javascript-conversao-de-tipos",
+            "src": "https://www.youtube.com/embed/XbYfwqerZjE",
+            "title": "Conversão de Tipos",
+            "description": "Nessa aula vamos aprender a converter um tipo de dado em outro. Através dos comandos Number() e toString() conseguimos converter um texto em número e vice-versa."
+        },
+        {
+            "id": "javascript-entrada-processamento-e-saida",
+            "src": "https://www.youtube.com/embed/KO3jpeABkJ4",
+            "title": "Entrada, processamento e saída",
+            "description": "Nessa aula vamos colocar em prática tudo que vimos até agora. Entrada de dados (prompt()), processamento (cálculos) e saída de dados (alert, document.write, console.log)."
+        }
+    ],
+    "Integração com HTML": [
+        {
+            "id": "html-introducao",
+            "src": "https://www.youtube.com/embed/M0kTtsJy7N4",
+            "title": "Introdução ao HTML",
+            "description": "HTML é uma linguagem de marcação de hipertexto, e tem como principal função marcar e definir a estrutura de uma página na web."
+        },
+        {
+            "id": "html-tags",
+            "src": "https://www.youtube.com/embed/XvGPnWavrog",
+            "title": "Tags HTML",
+            "description": "As tags são usadas para informar ao navegador a estrutura do site. Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, produzindo assim a estrutura e o conteúdo visual da página."
+        },
+        {
+            "id": "como-adicionar-javascript-no-html",
+            "src": "https://www.youtube.com/embed/21ldJFyenJY",
+            "title": "Como adicionar JavaScript no HTML",
+            "description": "Há duas formas de executar o JavaScript em uma página HTML: escrevendo o código dentro da tag script dentro do próprio arquivo html. Ou, utilizando arquivos separados."
+        },
+        {
+            "id": "integracao-entre-html-e-javascript",
+            "src": "https://www.youtube.com/embed/FOVUAQOis5I?si=DfcQim-t8SjJKGWa",
+            "title": "Integração entre HTML e JS",
+            "description": "Nessa aula a gente aprende a integrar o HTML e o JS. Selecionando elementos do HTML através do querySelector() e adicionando funções a botões através do addEventListener()"
+        },
+        {
+            "id": "html-e-javascript-praticando",
+            "src": "https://www.youtube.com/embed/8goYDq95rfU?si=dHOyheNqPMVMa5L3",
+            "title": "Praticando a integração",
+            "description": "Realizando a entrada, processando e saída com a integração entre o HTML e o JS."
+        }
+    ],
+    "Condições": [
+        {
+            "id": "javascript-operadores-e-funcoes-matematicas",
+            "src": "https://www.youtube.com/embed/-IohOlfvfMk?si=V0aTPOb5Zp0lbymz",
+            "title": "Operadores aritméticos e funções matemáticas",
+            "description": "Em programação é muito comum a realização de códigos matemáticos. Então, operadores aritméticos e funções matemáticas são indispensáveis."
+        },
+        {
+            "id": "javascript-operadores-relacionais",
+            "src": "https://www.youtube.com/embed/z2Yp5B6ajh8?si=Aj-2q60uCOa-80Z_",
+            "title": "Operadores relacionais",
+            "description": "Operadores relacionais são utilizados para comprar dois valores e resultam em um valor booleano(verdadeiro ou falso)."
+        },
+        {
+            "id": "javascript-operadores-logicos",
+            "src": "https://www.youtube.com/embed/Mq--B2DodJE?si=k21uibbGWrGCshpd",
+            "title": "Operadores lógicos",
+            "description": "Operadores lógicos permitem fazer mais de uma comparação. Testam dois valores booleanos e resultam, também, em um valor booleano(verdadeiro ou falso)."
+        },
+        {
+            "id": "javascript-condicoes-1",
+            "src": "https://www.youtube.com/embed/bpHz8f_iyO4?si=fAC6z7LmFe_TXSDh",
+            "title": "If e Else",
+            "description": "Em programação é bem raro não ter um código sem estruturas de condições. Através delas, podemos ter vários caminhos ou possibilidades baseadas em condições lógicas."
+        },
+        {
+            "id": "javascript-condicoes-2",
+            "src": "https://www.youtube.com/embed/06G1m0B4yaA?si=1SoDrKhunGfuLDDK",
+            "title": "Operador Ternário",
+            "description": "O operador ternário é uma forma mais compacta de se fazer uma estrutura if()...else."
+        },
+        {
+            "id": "javascript-condicoes-3",
+            "src": "https://www.youtube.com/embed/8hLEBsgtSBo?si=A4TyQOYurdHcts-p",
+            "title": "Switch",
+            "description": "Outra estrutura de condição parecida com o if(). Porém, mais útil quando nossas alternativas forem baseadas no conteúdo de alguma variável."
+        },
+        {
+            "id": "html-e-javascript-media-aritmetica",
+            "src": "https://www.youtube.com/embed/edsIF2ZHE1o?si=cEQZlC-a-p1IHgEJ",
+            "title": "Média aritmética com HTML",
+            "description": "Criando uma página que recebe o nome e as notas de um aluno, calcula sua média, e informa qual a situação desse aluno."
+        }
+    ],
+    "Repetições": [
+        {
+            "id": "javascript-repeticoes-1",
+            "src": "https://www.youtube.com/embed/BXUrqUPeGSc",
+            "title": "While",
+            "description": "Nesse vídeo a gente aprende a utilizar estruturas de repetição, facilitando nossa vida ao repetir determinados blocos de código."
+        },
+        {
+            "id": "javascript-repeticoes-2",
+            "src": "https://www.youtube.com/embed/JkbEkk67kH4",
+            "title": "For",
+            "description": "Nesse vídeo a gente aprende a utilizar estruturas de repetição, facilitando nossa vida ao repetir determinados blocos de código."
+        },
+        {
+            "id": "javascript-repeticoes-3",
+            "src": "https://www.youtube.com/embed/CktayeTGFxY",
+            "title": "do...while",
+            "description": "Nesse vídeo a gente aprende a utilizar estruturas de repetição, facilitando nossa vida ao repetir determinados blocos de código."
+        },
+        {
+            "id": "html-e-javascript-tabuada-com-repeticoes",
+            "src": "https://www.youtube.com/embed/aaWJU80xKdg",
+            "title": "Tabuada com HTML",
+            "description": "Nesse vídeo a gente cria uma Tabuada com HTML, utilizando Estruturas de Repetição."
+        },
+        {
+            "id": "html-e-javascript-numeros-pares-com-repeticoes",
+            "src": "https://www.youtube.com/embed/5ipOSKX-BgI",
+            "title": "Números Pares com HTML",
+            "description": "Nesse vídeo a gente cria um código que mostra números pares de 1 até N, utilizando Estruturas de Repetição."
+        }
+    ],
+    "Vetores": [
+        {
+            "id": "javascript-vetores",
+            "src": "https://www.youtube.com/embed/91Iwx_C9-Fs",
+            "title": "Vetores / Arrays",
+            "description": "Nesse vídeo a gente começa a trabalhar com listas de dados, criando e manipulando vetores JavaScript."
+        },
+        {
+            "id": "javascript-objetos-e-vetores-de-objetos",
+            "src": "https://www.youtube.com/embed/4qcyM16quDw",
+            "title": "Objetos e Vetores de Objetos",
+            "description": "Nesse vídeo a gente continua nosso assunto sobre vetores. Aprendemos o que são Objetos, a como criar, manipular e armazenar em um vetor."
+        },
+        {
+            "id": "html-e-javascript-lista-de-compras-com-vetores",
+            "src": "https://www.youtube.com/embed/plbc-diGU8I",
+            "title": "Lista de Compras com HTML",
+            "description": "Nesse vídeo a gente utiliza o exemplo de lista de compras, mostrado na aula de vetores, interagindo e utilizando o HTML."
+        },
+        {
+            "id": "html-e-javascript-loja-de-carros-com-vetores",
+            "src": "https://www.youtube.com/embed/zwI7IYCxOvI",
+            "title": "Loja de Carros com HTML",
+            "description": "Nesse vídeo a gente cria uma Loja de Carros com HTML, utilizando Vetores e Objetos."
+        }
+    ],
+    "Strings e Datas": [
+        {
+            "id": "javascript-strings",
+            "src": "https://www.youtube.com/embed/SFQ4Nzcst_s",
+            "title": "Strings",
+            "description": "Nesse vídeo a gente aprende a manipular strings. Pegando caracteres específicos, colocando em maiúsculo ou minúsculo e até transformando uma string em um vetor."
+        },
+        {
+            "id": "javascript-datas",
+            "src": "https://www.youtube.com/embed/HCZ6CbDzvo8",
+            "title": "Datas",
+            "description": "Nesse vídeo a gente aprende a manipular datas. Pegando dia, mês e ano de uma determinada data, e até calculando a distância de dias entre duas datas."
+        },
+        {
+            "id": "html-e-javascript-email-institucional",
+            "src": "https://www.youtube.com/embed/AQv_FpsRhcA",
+            "title": "E-mail Institucional com HTML",
+            "description": "Nesse vídeo a gente cria um programa que define um e-mail institucional a partir do nome completo de um aluno. Utilizando aqueles métodos de manipular strings que aprendemos nas aulas."
+        },
+        {
+            "id": "html-e-javascript-manipulando-strings",
+            "src": "https://www.youtube.com/embed/7fBJrbUoGMA",
+            "title": "Manipulando Strings com HTML",
+            "description": "Nesse vídeo a gente cria uma programa que define o crachá de uma pessoa a partir do nome completo dela. Utilizando os métodos de localizar e de copiar partes específicas de uma string."
+        },
+        {
+            "id": "html-e-javascript-manipulando-datas",
+            "src": "https://www.youtube.com/embed/Lv7MOQMA08A",
+            "title": "Manipulando Datas com HTML",
+            "description": "Nesse vídeo a gente cria um programa que calcula a distância entre a data atual e a data de um compromisso. Utilizando os métodos de definir dia, mês e ano."
+        }
+    ],
+    "Funções e Eventos": [
+        {
+            "id": "javascript-funcoes",
+            "src": "https://www.youtube.com/embed/RfRXrO1YUqE",
+            "title": "Funções",
+            "description": "Nesse vídeo a gente finalmente se aprofunda em funções. Funções com parâmetros, retorno de valores e funções anônimas."
+        },
+        {
+            "id": "javascript-eventos",
+            "src": "https://www.youtube.com/embed/F51egGP7a08",
+            "title": "Eventos",
+            "description": "Nesse vídeo a gente aprende a manipular eventos. Eventos de formulário(submit, reset), de mouse(mouseover, mouseout, click) e até de teclado(keypress), deixando assim, a nossa página bem mais completa e interessante."
+        },
+        {
+            "id": "html-e-javascript-programa-de-senha",
+            "src": "https://www.youtube.com/embed/8U7-QNViyOY",
+            "title": "Gerador de senha com HTML",
+            "description": "Nesse vídeo a gente cria um programa que define uma senha para um aluno. Pegando o último nome dele e a quantidade de vogais que existem no nome."
+        },
+        {
+            "id": "html-e-javascript-pizzaria-com-eventos-js",
+            "src": "https://www.youtube.com/embed/zYUP9m-FceU",
+            "title": "Pizzaria com Eventos e HTML",
+            "description": "Nesse vídeo a gente cria um programa para uma pizzaria, que faz o controle de pedidos dos clientes. Utilizando os eventos que aprendemos, vamos deixar o programa bem completo e interessante de utilizar."
+        }
+    ]
+}
