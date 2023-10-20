@@ -1,4 +1,4 @@
-import videos from "../../../json/videos.json";
+import videos from '../../../json/videos.json'
 
 export default function getVideoById(id) {
   let videoFound;

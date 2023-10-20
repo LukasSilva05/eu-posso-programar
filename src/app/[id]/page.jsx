@@ -12,7 +12,7 @@ export default function page({ params }) {
         <iframe
           className="absolute top-0 h-full w-full xl:h-4/5 xl:w-4/5"
           src={src}
-          frameborder="1"
+          frameBorder="1"
           allowFullScreen
         ></iframe>
       </div>
