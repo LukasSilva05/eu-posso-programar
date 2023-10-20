@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import videos from "../../json/videos.json";
-import toggleMenu from "../Topbar/functions/toggleMenu";
+import toggleMenu from "../functions/toggleMenu";
 
 export default function Sidebar() {
   const props = Object.keys(videos);

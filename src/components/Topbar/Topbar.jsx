@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import menuIcon from "../../assets/images/menu-white.png";
 import githubIcon from "../../assets/images/github.png"
-import toggleMenu from "./functions/toggleMenu";
+import toggleMenu from "../functions/toggleMenu"
 
 export default function Topbar() {
   return (

@@ -5,8 +5,8 @@ export default function toggleMenu() {
     body.offsetWidth < 640
       ? "max-sm:w-[91%]"
       : body.offsetWidth < 768
-      ? "max-md:w-[50%]"
-      : "max-lg:w-0";
+        ? "max-md:w-[50%]"
+        : "max-lg:w-0";
   console.log(size)
   sidebar.classList.toggle(size);
 }
