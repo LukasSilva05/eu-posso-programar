@@ -1,4 +1,4 @@
-export function toggleMenu() {
+export default function toggleMenu() {
   const sidebar = document.querySelector("#sidebar");
   const body = document.querySelector("body");
   const size =
@@ -9,4 +9,5 @@ export function toggleMenu() {
       : "max-lg:w-0";
 
   sidebar.classList.toggle(size);
+  console.log("ok");
 }
