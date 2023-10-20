@@ -9,5 +9,4 @@ export default function toggleMenu() {
       : "max-lg:w-0";
 
   sidebar.classList.toggle(size);
-  console.log("ok");
 }
