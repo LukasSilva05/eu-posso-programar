@@ -19,7 +19,7 @@ export default function page({ params }) {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="flex w-full items-center justify-between rounded-b-sm  bg-zinc-800 p-5">
+      <div className="flex w-full items-center justify-between rounded-b-sm bg-zinc-800 p-5">
         <Link
           className={
             previousVideo ? "text-white" : "cursor-not-allowed text-zinc-500"
