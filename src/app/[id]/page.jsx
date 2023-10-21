@@ -8,18 +8,18 @@ export default function page({ params }) {
 
   return (
     <div>
-      <h1 className="mb-2 pt-9 text-2xl font-bold max-sm:text-base">
+      <h1 className="mb-2 pt-9 text-2xl font-bold max-sm:text-base ">
         {currentVideo.title}
       </h1>
       <div className="relative pt-[56.25%]">
         <iframe
-          className="absolute top-0 h-full w-full"
+          className="absolute top-0 h-full w-full drop-shadow-lg"
           src={currentVideo.src}
           frameBorder="0"
           allowFullScreen
         ></iframe>
       </div>
-      <div className="flex w-full items-center justify-between bg-zinc-800 p-5">
+      <div className="flex w-full items-center justify-between rounded-b-sm  bg-zinc-800 p-5">
         <Link
           className={
             previousVideo ? "text-white" : "cursor-not-allowed text-zinc-500"

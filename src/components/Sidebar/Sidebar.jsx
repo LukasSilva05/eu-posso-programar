@@ -22,7 +22,7 @@ export default function Sidebar() {
               <ul className="mx-3 my-5 border-l border-zinc-800">
                 {videos[topic].map((video) => {
                   return (
-                    <li key={video.id} className="my-2">
+                    <li key={video.id} className="my-[10px]">
                       <Link
                         onClick={() => toggleMenu()}
                         className={
