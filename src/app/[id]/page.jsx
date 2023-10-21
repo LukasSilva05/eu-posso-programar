@@ -1,20 +1,41 @@
 "use client";
 
-import getVideoById from "./functions/getVideoById";
+import Link from "next/link";
+import getVideos from "./functions/getVideos";
 
 export default function page({ params }) {
-  const { src, title } = getVideoById(params.id);
+  const [previousVideo, currentVideo, nextVideo] = getVideos(params.id);
 
   return (
     <div>
-      <h1 className="mb-3 pt-12 text-2xl font-bold max-sm:text-base">{title}</h1>
+      <h1 className="mb-2 pt-9 text-2xl font-bold max-sm:text-base">
+        {currentVideo.title}
+      </h1>
       <div className="relative pt-[56.25%]">
         <iframe
-          className="absolute top-0 h-full w-full xl:h-4/5 xl:w-4/5"
-          src={src}
-          frameBorder="1"
+          className="absolute top-0 h-full w-full"
+          src={currentVideo.src}
+          frameBorder="0"
           allowFullScreen
         ></iframe>
+      </div>
+      <div className="flex w-full items-center justify-between bg-zinc-800 p-5">
+        <Link
+          className={
+            previousVideo ? "text-white" : "cursor-not-allowed text-zinc-500"
+          }
+          href={previousVideo ? `/${previousVideo.id}` : ""}
+        >
+          Anterior
+        </Link>
+        <Link
+          className={
+            nextVideo ? "text-white" : "cursor-not-allowed text-zinc-500"
+          }
+          href={nextVideo ? `/${nextVideo.id}` : ""}
+        >
+          Próximo
+        </Link>
       </div>
     </div>
   );
