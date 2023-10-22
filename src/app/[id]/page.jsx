@@ -1,7 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import getVideos from "./functions/getVideos";
+import nextIcon from "../../assets/images/next.png";
+import nextZincIcon from "../../assets/images/nextZinc.png";
+import previousIcon from "../../assets/images/previous.png";
+import previousZincIcon from "../../assets/images/previousZinc.png";
 
 export default function page({ params }) {
   const [previousVideo, currentVideo, nextVideo] = getVideos(params.id);
@@ -19,22 +24,36 @@ export default function page({ params }) {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="flex w-full items-center justify-between rounded-b-sm bg-zinc-800 p-5">
+      <div className="flex w-full items-center justify-between rounded-b-sm bg-zinc-800 p-4 ">
         <Link
           className={
-            previousVideo ? "text-white" : "cursor-not-allowed text-zinc-500"
+            previousVideo
+              ? "flex h-10 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
+              : "flex h-10 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
           }
           href={previousVideo ? `/${previousVideo.id}` : ""}
         >
+          <Image
+            className="h-4 w-4"
+            src={previousVideo ? previousIcon : previousZincIcon}
+            alt="previousIcon"
+          />
           Anterior
         </Link>
         <Link
           className={
-            nextVideo ? "text-white" : "cursor-not-allowed text-zinc-500"
+            nextVideo
+              ? "flex h-10 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
+              : "flex h-10 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
           }
           href={nextVideo ? `/${nextVideo.id}` : ""}
         >
           Próximo
+          <Image
+            className="h-4 w-4"
+            src={nextVideo ? nextIcon : nextZincIcon}
+            alt="nextIcon"
+          />
         </Link>
       </div>
     </div>

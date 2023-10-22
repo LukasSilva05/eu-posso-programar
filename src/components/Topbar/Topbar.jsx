@@ -8,7 +8,7 @@ import toggleMenu from "../functions/toggleMenu";
 
 export default function Topbar() {
   return (
-    <div className="fixed top-0 z-10 flex w-full  justify-between gap-2 border-b border-zinc-400/30 px-5 py-4 text-lg font-bold text-white drop-shadow-lg backdrop-blur-md max-sm:px-4">
+    <div className="fixed top-0 z-10 flex w-full  justify-between gap-2 border-b border-zinc-400/30 px-5 py-4 text-lg font-bold text-white drop-shadow-lg backdrop-blur max-sm:px-4">
       <div className="flex items-center gap-2">
         <button
           onClick={() => toggleMenu()}
