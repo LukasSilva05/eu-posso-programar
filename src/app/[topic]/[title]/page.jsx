@@ -10,8 +10,7 @@ import previousIcon from "../../../assets/images/previous.png";
 import previousZincIcon from "../../../assets/images/previousZinc.png";
 
 export default function page({ params }) {
-  const [previousVideo, currentVideo, nextVideo] = getVideos(params.id);
-  
+  const [previousVideo, currentVideo, nextVideo] = getVideos(params.title);
 
   return (
     <div>
@@ -33,7 +32,11 @@ export default function page({ params }) {
               ? "flex h-10 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
               : "flex h-10 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
           }
-          href={previousVideo ? `/${handleString(nextVideo.topic)}/${previousVideo.props.id}` : ""}
+          href={
+            previousVideo
+              ? `/${handleString(previousVideo.topic)}/${handleString(previousVideo.props.title)}`
+              : ""
+          }
         >
           <Image
             className="h-4 w-4"
@@ -48,7 +51,11 @@ export default function page({ params }) {
               ? "flex h-10 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
               : "flex h-10 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
           }
-          href={nextVideo ? `/${handleString(nextVideo.topic)}/${nextVideo.props.id}` : ""}
+          href={
+            nextVideo
+              ? `/${handleString(nextVideo.topic)}/${handleString(nextVideo.props.title)}`
+              : ""
+          }
         >
           Próximo
           <Image
