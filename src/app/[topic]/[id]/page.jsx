@@ -3,23 +3,25 @@
 import Link from "next/link";
 import Image from "next/image";
 import getVideos from "./functions/getVideos";
-import nextIcon from "../../assets/images/next.png";
-import nextZincIcon from "../../assets/images/nextZinc.png";
-import previousIcon from "../../assets/images/previous.png";
-import previousZincIcon from "../../assets/images/previousZinc.png";
+import handleString from "@/functions/handleString";
+import nextIcon from "../../../assets/images/next.png";
+import nextZincIcon from "../../../assets/images/nextZinc.png";
+import previousIcon from "../../../assets/images/previous.png";
+import previousZincIcon from "../../../assets/images/previousZinc.png";
 
 export default function page({ params }) {
   const [previousVideo, currentVideo, nextVideo] = getVideos(params.id);
+  
 
   return (
     <div>
       <h1 className="mb-2 pt-9 text-2xl font-bold max-sm:text-base ">
-        {currentVideo.title}
+        {currentVideo.props.title}
       </h1>
       <div className="relative pt-[56.25%]">
         <iframe
           className="absolute top-0 h-full w-full drop-shadow-lg"
-          src={currentVideo.src}
+          src={currentVideo.props.src}
           frameBorder="0"
           allowFullScreen
         ></iframe>
@@ -31,7 +33,7 @@ export default function page({ params }) {
               ? "flex h-10 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
               : "flex h-10 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
           }
-          href={previousVideo ? `/${previousVideo.id}` : ""}
+          href={previousVideo ? `/${handleString(nextVideo.topic)}/${previousVideo.props.id}` : ""}
         >
           <Image
             className="h-4 w-4"
@@ -46,7 +48,7 @@ export default function page({ params }) {
               ? "flex h-10 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
               : "flex h-10 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
           }
-          href={nextVideo ? `/${nextVideo.id}` : ""}
+          href={nextVideo ? `/${handleString(nextVideo.topic)}/${nextVideo.props.id}` : ""}
         >
           Próximo
           <Image

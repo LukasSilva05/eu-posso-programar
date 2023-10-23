@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import videos from "../../json/videos.json";
 import toggleMenu from "../functions/toggleMenu";
+import handleString from "@/functions/handleString";
 
 export default function Sidebar() {
   const props = Object.keys(videos);
@@ -27,11 +28,11 @@ export default function Sidebar() {
                       <Link
                         onClick={() => toggleMenu()}
                         className={
-                          pathname == `/${video.id}`
+                          pathname == `/${handleString(topic)}/${video.id}`
                             ? "-ml-px block overflow-hidden text-ellipsis whitespace-nowrap border-l pl-3 text-sm text-white transition duration-200 "
                             : "-ml-px box-border block overflow-hidden text-ellipsis whitespace-nowrap border-l border-transparent pl-3 text-sm text-zinc-500 transition duration-200 hover:border-white hover:text-white"
                         }
-                        href={`/${video.id}`}
+                        href={`/${handleString(topic)}/${video.id}`}
                       >
                         {video.title}
                       </Link>

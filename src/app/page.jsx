@@ -7,6 +7,7 @@ export default function Home() {
         de CSS para auxiliar os alunos do IFAL - Campus Rio Largo na disciplina
         de Introdução à Programação.
       </p>
+      <h1 className="my-5 text-3xl mt-20">Under construction...</h1>
     </div>
   );
 }
