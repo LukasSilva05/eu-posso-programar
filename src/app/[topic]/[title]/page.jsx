@@ -28,17 +28,19 @@ export default function page({ params }) {
         <Link
           className={
             previousVideo
-              ? "flex h-10 max-sm:h-8 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
-              : "flex h-10 max-sm:h-8 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
+              ? "flex h-10 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110 max-sm:h-8"
+              : "flex h-10 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition max-sm:h-8"
           }
           href={
             previousVideo
-              ? `/${handleString(previousVideo.topic)}/${handleString(previousVideo.props.title)}`
+              ? `/${handleString(previousVideo.topic)}/${handleString(
+                  previousVideo.props.title,
+                )}`
               : ""
           }
         >
           <Image
-            className="h-4 w-4 max-sm:h-3 max-sm:w-3"
+            className="h-3 w-3"
             src={previousVideo ? previousIcon : previousZincIcon}
             alt="previousIcon"
           />
@@ -47,18 +49,20 @@ export default function page({ params }) {
         <Link
           className={
             nextVideo
-              ? "flex h-10 max-sm:h-8 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
-              : "flex h-10 max-sm:h-8 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
-          } 
+              ? "flex h-10 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110 max-sm:h-8"
+              : "flex h-10 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition max-sm:h-8"
+          }
           href={
             nextVideo
-              ? `/${handleString(nextVideo.topic)}/${handleString(nextVideo.props.title)}`
+              ? `/${handleString(nextVideo.topic)}/${handleString(
+                  nextVideo.props.title,
+                )}`
               : ""
           }
         >
           <span className="text-sm">Próximo</span>
           <Image
-            className="h-4 w-4 max-sm:h-3 max-sm:w-3"
+            className="h-3 w-3"
             src={nextVideo ? nextIcon : nextZincIcon}
             alt="nextIcon"
           />
