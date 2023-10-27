@@ -14,23 +14,22 @@ export default function page({ params }) {
 
   return (
     <div>
-      <h1 className="mb-2 pt-9 text-2xl font-bold max-sm:text-base ">
+      <h1 className="mb-2 pt-9 text-2xl font-bold max-sm:text-lg">
         {currentVideo.props.title}
       </h1>
       <div className="relative pt-[56.25%]">
         <iframe
           className="absolute top-0 h-full w-full drop-shadow-lg"
           src={currentVideo.props.src}
-          frameBorder="0"
           allowFullScreen
         ></iframe>
       </div>
-      <div className="flex w-full items-center justify-between rounded-b-sm bg-zinc-800 p-4 ">
+      <div className="flex w-full items-center justify-between rounded-b-sm bg-zinc-800 p-4 max-sm:p-3">
         <Link
           className={
             previousVideo
-              ? "flex h-10 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
-              : "flex h-10 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
+              ? "flex h-10 max-sm:h-8 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
+              : "flex h-10 max-sm:h-8 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
           }
           href={
             previousVideo
@@ -39,27 +38,27 @@ export default function page({ params }) {
           }
         >
           <Image
-            className="h-4 w-4"
+            className="h-4 w-4 max-sm:h-3 max-sm:w-3"
             src={previousVideo ? previousIcon : previousZincIcon}
             alt="previousIcon"
           />
-          Anterior
+          <span className="text-sm">Anterior</span>
         </Link>
         <Link
           className={
             nextVideo
-              ? "flex h-10 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
-              : "flex h-10 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
-          }
+              ? "flex h-10 max-sm:h-8 items-center justify-center gap-2 rounded bg-[#2e2e32] px-4 text-white transition hover:brightness-110"
+              : "flex h-10 max-sm:h-8 cursor-not-allowed items-center justify-center gap-2 rounded bg-[#2e2e32b1] px-4 text-zinc-500 transition"
+          } 
           href={
             nextVideo
               ? `/${handleString(nextVideo.topic)}/${handleString(nextVideo.props.title)}`
               : ""
           }
         >
-          Próximo
+          <span className="text-sm">Próximo</span>
           <Image
-            className="h-4 w-4"
+            className="h-4 w-4 max-sm:h-3 max-sm:w-3"
             src={nextVideo ? nextIcon : nextZincIcon}
             alt="nextIcon"
           />

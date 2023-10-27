@@ -8,7 +8,9 @@ export default function getVideos(title) {
     videos[topic].forEach((video) => arrayVideos.push({ topic, props: video })),
   );
 
-  const currentId = arrayVideos.findIndex((video) => handleString(video.props.title) === title);
+  const currentId = arrayVideos.findIndex(
+    (video) => handleString(video.props.title) === title,
+  );
 
   return [
     arrayVideos[currentId - 1],

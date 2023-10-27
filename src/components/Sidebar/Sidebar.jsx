@@ -33,7 +33,9 @@ export default function Sidebar() {
                             ? "-ml-px block overflow-hidden text-ellipsis whitespace-nowrap border-l pl-3 text-sm text-white transition duration-200 "
                             : "-ml-px box-border block overflow-hidden text-ellipsis whitespace-nowrap border-l border-transparent pl-3 text-sm text-zinc-500 transition duration-200 hover:border-white hover:text-white"
                         }
-                        href={`/${handleString(topic)}/${handleString(video.title)}`}
+                        href={`/${handleString(topic)}/${handleString(
+                          video.title,
+                        )}`}
                       >
                         {video.title}
                       </Link>
