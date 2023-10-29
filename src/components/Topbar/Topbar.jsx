@@ -23,7 +23,7 @@ export default function Topbar() {
       <Link
         className="flex items-center"
         target="_blank"
-        href={"https://github.com/LukasSilva05/i-can-programming"}
+        href={"https://github.com/LukasSilva05/eu-posso-programar"}
       >
         <Image className="w-6 max-sm:w-5" src={githubIcon} alt="githubIcon" />
       </Link>
