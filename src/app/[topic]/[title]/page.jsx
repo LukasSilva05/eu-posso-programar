@@ -30,7 +30,7 @@ export default function page({ params }) {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="flex w-full items-center justify-between rounded-b-sm bg-zinc-800 p-4 max-sm:p-3">
+      <div className="flex w-full items-center justify-between drop-shadow-lg rounded-b-sm bg-zinc-800 p-4 max-sm:p-3">
         <Link
           className={
             previousVideo
