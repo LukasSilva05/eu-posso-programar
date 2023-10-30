@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
 import getVideos from "./functions/getVideos";
@@ -8,6 +6,14 @@ import nextIcon from "../../../assets/images/next.png";
 import nextZincIcon from "../../../assets/images/nextZinc.png";
 import previousIcon from "../../../assets/images/previous.png";
 import previousZincIcon from "../../../assets/images/previousZinc.png";
+
+export async function generateMetadata({ params }) {
+  const [previousVideo, currentVideo, nextVideo] = getVideos(params.title);
+
+  return {
+    title: `${currentVideo.props.title} | Eu posso programar`
+  }
+}
 
 export default function page({ params }) {
   const [previousVideo, currentVideo, nextVideo] = getVideos(params.title);
