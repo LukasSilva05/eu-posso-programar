@@ -16,9 +16,9 @@ export default function Topbar() {
         >
           <Image src={menuIcon} alt="toggleButton" width={18} />
         </button>
-        <h2 className="select-none text-2xl max-sm:text-lg">
+        <Link href="/" className="select-none text-2xl max-sm:text-lg">
           Eu posso programar
-        </h2>
+        </Link>
       </div>
       <Link
         className="flex items-center"

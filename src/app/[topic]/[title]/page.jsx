@@ -74,6 +74,8 @@ export default function page({ params }) {
           />
         </Link>
       </div>
+      <h1 className="font-bold mt-8 mb-4 text-lg max-sm:text-[16px]">Complementos</h1>
+      <div className="border-zinc-800 border-b"></div>
     </div>
   );
 }
