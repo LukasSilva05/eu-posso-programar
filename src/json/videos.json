@@ -75,7 +75,8 @@
             "src": "https://www.youtube.com/embed/KO3jpeABkJ4",
             "title": "Entrada, processamento e saída",
             "complements": {
-                "Exemplo - Dobro de um número" : "https://js.do/LukasSilva05/716249"
+                "Exemplo - Dobro de um número" : "https://js.do/LukasSilva05/dobro",
+                "Exemplo - Duração de um viagem": "https://js.do/LukasSilva05/duracaodaviagem"
             } 
         }
     ],
@@ -84,35 +85,41 @@
             "src": "https://www.youtube.com/embed/M0kTtsJy7N4",
             "title": "Introdução ao HTML",
             "complements": {
-
+                "MDN Web Docs - HTML": "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
+                "MDN Web Docs - HTML básico": "https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/XvGPnWavrog",
             "title": "Tags HTML",
             "complements": {
-
+                "MDN Web Docs - Elementos HTML": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/21ldJFyenJY",
             "title": "Como adicionar JavaScript no HTML",
             "complements": {
-
+                "Hostinger - Como adicionar JavaScript no HTML": "https://www.hostinger.com.br/tutoriais/como-adicionar-javascript-no-html"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/FOVUAQOis5I?si=DfcQim-t8SjJKGWa",
             "title": "Integração entre HTML e JS",
             "complements": {
-
+                "W3Schools - querySelector()": "https://www.w3schools.com/jsref/met_document_queryselector.asp",
+                "MDN Web Docs - querySelector()": "https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector",
+                "W3Schools - addEventListener()": "https://www.w3schools.com/jsref/met_element_addeventlistener.asp",
+                "MDN Web Docs - Evento submit": "https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLFormElement/submit_event",
+                "W3Schools - propriedade .value": "https://www.w3schools.com/jsref/prop_attr_value.asp",
+                "W3Schools - innerText": "https://www.w3schools.com/jsref/prop_node_innertext.asp"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/8goYDq95rfU?si=dHOyheNqPMVMa5L3",
             "title": "Praticando a integração",
             "complements": {
-
+                "Exemplo - Cine JS": "https://js.do/LukasSilva05/cinejs"
             } 
         }
     ],
@@ -121,49 +128,64 @@
             "src": "https://www.youtube.com/embed/-IohOlfvfMk?si=V0aTPOb5Zp0lbymz",
             "title": "Operadores aritméticos e funções matemáticas",
             "complements": {
-
+                "Bóson Treinamentos - Operadores aritméticos": "http://www.bosontreinamentos.com.br/programacao-em-javascript/curso-basico-de-javascript-operadores-aritmeticos/",
+                "MDN Web Docs - Funções Math": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math",
+                "MDN Web Docs - Math.abs()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/abs",
+                "MDN Web Docs - Math.ceil()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil",
+                "MDN Web Docs - Math.floor()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/floor",
+                "MDN Web Docs - Math.pow()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/pow",
+                "MDN Web Docs - Math.round()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/round",
+                "MDN Web Docs - Math.sqrt()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt",
+                "MDN Web Docs - Math.random()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/z2Yp5B6ajh8?si=Aj-2q60uCOa-80Z_",
             "title": "Operadores relacionais",
             "complements": {
-
+                "Alura - Operadores relacionais": "https://www.alura.com.br/artigos/operadores-matematicos-em-javascript?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conteúdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=111087461203&hsa_ad=645853715422&hsa_src=g&hsa_tgt=dsa-843358956400&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAiA0syqBhBxEiwAeNx9N9ytX3kLjygGFapwN8gLRgNQSQ5ybLotWPdD37SgKOwfsdSRKp70rhoCWHoQAvD_BwE"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/Mq--B2DodJE?si=k21uibbGWrGCshpd",
             "title": "Operadores lógicos",
             "complements": {
-
+                "MDN Web Docs - AND (&&)": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND",
+                "MDN Web Docs - OR (||)": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR",
+                "MDN Web Docs - NOT (!)": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/bpHz8f_iyO4?si=fAC6z7LmFe_TXSDh",
             "title": "If e Else",
             "complements": {
-
+                "MDN Web Docs - if...else": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else",
+                "W3Schools - if, else e else if": "https://www.w3schools.com/js/js_if_else.asp"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/06G1m0B4yaA?si=1SoDrKhunGfuLDDK",
             "title": "Operador Ternário",
             "complements": {
-
+                "MDN Web Docs - Operador Ternário": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_operator"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/8hLEBsgtSBo?si=A4TyQOYurdHcts-p",
             "title": "Switch",
             "complements": {
-
+                "MDN Web Docs - Switch": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/switch",
+                "W3Schools - Switch": "https://www.w3schools.com/js/js_switch.asp"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/edsIF2ZHE1o?si=cEQZlC-a-p1IHgEJ",
             "title": "Média aritmética com HTML",
             "complements": {
-
+                "MDN Web Docs - Input do tipo number": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number",
+                "MDN Web Docs - JavaScript e CSS": "https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents",
+                "W3Schools - Trocar estilo de um elemento HTML através do JS": "https://www.w3schools.com/jsref/prop_html_style.asp",
+                "MDN Web Docs - Cores no CSS": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/color"
             } 
         }
     ],
@@ -172,35 +194,40 @@
             "src": "https://www.youtube.com/embed/BXUrqUPeGSc",
             "title": "While",
             "complements": {
-
+                "MDN Web Docs - While": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while",
+                "MDN Web Docs - Incremento": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/JkbEkk67kH4",
             "title": "For",
             "complements": {
-
+                "MDN Web Docs - For": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for",
+                "MDN Web Docs - Incremento": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/CktayeTGFxY",
             "title": "do...while",
             "complements": {
-
+                "MDN Web Docs - do...while": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/do...while",
+                "MDN Web Docs - Decremento": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Decrement"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/aaWJU80xKdg",
             "title": "Tabuada com HTML",
             "complements": {
-
+                "MDN Web Docs - tag <pre>": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/pre",
+                "Exemplo - Tabuada": "https://js.do/LukasSilva05/tabuada"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/5ipOSKX-BgI",
             "title": "Números Pares com HTML",
             "complements": {
-
+                "MDN Web Docs - Módulo (%)": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder",
+                "Exemplo - Números pares": "https://js.do/LukasSilva05/numeros-pares"
             } 
         }
     ],
@@ -209,14 +236,28 @@
             "src": "https://www.youtube.com/embed/91Iwx_C9-Fs",
             "title": "Vetores",
             "complements": {
-
+                "MDN Web Docs - Array": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array",
+                "MDN Web Docs - length": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/length",
+                "MDN Web Docs - push()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/push",
+                "MDN Web Docs - unshift()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
+                "MDN Web Docs - pop()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/pop",
+                "MDN Web Docs - shift()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/shift",
+                "MDN Web Docs - for...of": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of",
+                "MDN Web Docs - forEach()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/4qcyM16quDw",
             "title": "Objetos e Vetores de Objetos",
             "complements": {
-
+                "MDN Web Docs - Objetos": "https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/Basics",
+                "MDN Web Docs - indexOf()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf",
+                "MDN Web Docs - lastIndexOf()" : "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf",
+                "MDN Web Docs - includes()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/includes",
+                "MDN Web Docs - join()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
+                "MDN Web Docs - sort()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
+                "MDN Web Docs - filter()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+                "MDN Web Docs - map()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
             } 
         },
         {
@@ -230,7 +271,7 @@
             "src": "https://www.youtube.com/embed/zwI7IYCxOvI",
             "title": "Loja de Carros com HTML",
             "complements": {
-
+                "MDN Web Docs - Evento click": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/click_event"
             } 
         }
     ],
@@ -239,14 +280,26 @@
             "src": "https://www.youtube.com/embed/SFQ4Nzcst_s",
             "title": "Strings",
             "complements": {
-
+                "MDN Web Docs - Strings": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String",
+                "MDN Web Docs - charAt()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/charAt",
+                "MDN Web Docs - toUpperCase()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase",
+                "MDN Web Docs - toLowerCase()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase",
+                "MDN Web Docs - substring()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/substring",
+                "MDN Web Docs - replace()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace",
+                "MDN Web Docs - split()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/HCZ6CbDzvo8",
             "title": "Datas",
             "complements": {
-
+                "MDN Web Docs - Date": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date",
+                "MDN Web Docs - getDate()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate",
+                "MDN Web Docs - getMonth()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth",
+                "MDN Web Docs - getFullYear()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear",
+                "MDN Web Docs - setDate()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date/setDate",
+                "MDN Web Docs - setMonth()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date/setMonth",
+                "MDN Web Docs - setFullYear()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date/setFullYear"
             } 
         },
         {
@@ -276,14 +329,22 @@
             "src": "https://www.youtube.com/embed/RfRXrO1YUqE",
             "title": "Funções",
             "complements": {
-
+                "MDN Web Docs - Funções": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions",
+                "MDN Web Docs - Função flecha (arrow function)": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/F51egGP7a08",
             "title": "Eventos",
             "complements": {
-
+                "MDN Web Docs - Eventos": "https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events",
+                "MDN Web Docs - Evento reset": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset_event",
+                "MDN Web Docs - Evento focus": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/focus_event",
+                "MDN Web Docs - Evento blur": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/blur_event",
+                "MDN Web Docs - Evento mouseover": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/mouseover_event",
+                "MDN Web Docs - Evento mouseout": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseout_event",
+                "MDN Web Docs - Evento dblclick": "https://developer.mozilla.org/en-US/docs/Web/API/Element/dblclick_event",
+                "MDN Web Docs - Evento keypress": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/keypress_event"
             } 
         },
         {
