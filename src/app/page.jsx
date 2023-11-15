@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="pt-12 max-sm:pt-4 ">
+    <div className="py-12 max-sm:pt-4 ">
       <h1 className="my-5 text-3xl">Eu Posso Programar</h1>
       <p className="text mt-8 text-lg leading-relaxed tracking-wide text-zinc-300/90 max-sm:text-base">
         Uma plataforma com diversos videos sobre JavaScript, HTML e até um pouco

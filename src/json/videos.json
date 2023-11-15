@@ -182,7 +182,7 @@
             "src": "https://www.youtube.com/embed/edsIF2ZHE1o?si=cEQZlC-a-p1IHgEJ",
             "title": "Média aritmética com HTML",
             "complements": {
-                "MDN Web Docs - Input do tipo number": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number",
+                "MDN Web Docs - input type number": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number",
                 "MDN Web Docs - JavaScript e CSS": "https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents",
                 "W3Schools - Trocar estilo de um elemento HTML através do JS": "https://www.w3schools.com/jsref/prop_html_style.asp",
                 "MDN Web Docs - Cores no CSS": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/color"
@@ -264,14 +264,22 @@
             "src": "https://www.youtube.com/embed/plbc-diGU8I",
             "title": "Lista de Compras com HTML",
             "complements": {
-
+                "MDN Web Docs - push()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/",
+                "MDN Web Docs - forEach()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach",
+                "MDN Web Docs - reset()": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset",
+                "MDN Web Docs - focus()": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/zwI7IYCxOvI",
             "title": "Loja de Carros com HTML",
             "complements": {
-                "MDN Web Docs - Evento click": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/click_event"
+                "MDN Web Docs - Evento click": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/click_event",
+                "MDN Web Docs - repeat()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/repeat",
+                "MDN Web Docs - toFixed()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
+                "MDN Web Docs - filter()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+                "MDN Web Docs - map()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+                "MDN Web Docs - forEach()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
             } 
         }
     ],
