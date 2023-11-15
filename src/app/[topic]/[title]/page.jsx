@@ -84,7 +84,10 @@ export default function page({ params }) {
       <ul className="py-5">
         {Object.keys(addons).map((addonTitle) => {
           return (
-            <li key={addonTitle} className="my-[10px] max-sm:text-[14px] flex items-center gap-1">
+            <li
+              key={addonTitle}
+              className="my-[10px] flex items-center gap-1 max-sm:text-[14px]"
+            >
               <Link
                 className="decoration-1 hover:underline"
                 target="_blank"

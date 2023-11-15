@@ -111,7 +111,7 @@
                 "MDN Web Docs - querySelector()": "https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector",
                 "W3Schools - addEventListener()": "https://www.w3schools.com/jsref/met_element_addeventlistener.asp",
                 "MDN Web Docs - Evento submit": "https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLFormElement/submit_event",
-                "W3Schools - propriedade .value": "https://www.w3schools.com/jsref/prop_attr_value.asp",
+                "W3Schools - propriedade value": "https://www.w3schools.com/jsref/prop_attr_value.asp",
                 "W3Schools - innerText": "https://www.w3schools.com/jsref/prop_node_innertext.asp"
             } 
         },
@@ -182,7 +182,7 @@
             "src": "https://www.youtube.com/embed/edsIF2ZHE1o?si=cEQZlC-a-p1IHgEJ",
             "title": "Média aritmética com HTML",
             "complements": {
-                "MDN Web Docs - input type number": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number",
+                "MDN Web Docs - <input type='number'>": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number",
                 "MDN Web Docs - JavaScript e CSS": "https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents",
                 "W3Schools - Trocar estilo de um elemento HTML através do JS": "https://www.w3schools.com/jsref/prop_html_style.asp",
                 "MDN Web Docs - Cores no CSS": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/color"
@@ -218,7 +218,7 @@
             "src": "https://www.youtube.com/embed/aaWJU80xKdg",
             "title": "Tabuada com HTML",
             "complements": {
-                "MDN Web Docs - tag <pre>": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/pre",
+                "MDN Web Docs - <pre>": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/pre",
                 "Exemplo - Tabuada": "https://js.do/LukasSilva05/tabuada"
             } 
         },
@@ -314,21 +314,31 @@
             "src": "https://www.youtube.com/embed/AQv_FpsRhcA",
             "title": "E-mail Institucional com HTML",
             "complements": {
-
+                "MDN Web Docs - split()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split",
+                "MDN Web Docs - toLowerCase()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase",
+                "MDN Web Docs - includes()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/includes",
+                "MDN Web Docs - for...of": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/7fBJrbUoGMA",
             "title": "Manipulando Strings com HTML",
             "complements": {
-
+                "MDN Web Docs - indexOf()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf",
+                "MDN Web Docs - lastIndexOf()" : "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf",
+                "MDN Web Docs - substring()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/substring",
+                "MDN Web Docs - split()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/Lv7MOQMA08A",
             "title": "Manipulando Datas com HTML",
             "complements": {
-
+                "MDN Web Docs - <input type='date'>": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input/date",
+                "MDN Web Docs - split()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split",
+                "MDN Web Docs - setDate()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date/setDate",
+                "MDN Web Docs - setMonth()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date/setMonth",
+                "MDN Web Docs - setFullYear()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date/setFullYear"
             } 
         }
     ],
@@ -359,14 +369,22 @@
             "src": "https://www.youtube.com/embed/8U7-QNViyOY",
             "title": "Gerador de senha com HTML",
             "complements": {
-
+                "MDN Web Docs - Funções": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions",
+                "MDN Web Docs - Função flecha (arrow function)": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
+                "MDN Web Docs - at()": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/at"
             } 
         },
         {
             "src": "https://www.youtube.com/embed/zYUP9m-FceU",
             "title": "Pizzaria com Eventos e HTML",
             "complements": {
-
+                "MDN Web Docs - <input type='radio'>": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio",
+                "MDN Web Docs - <select>": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/select",
+                "MDN Web Docs - <option>": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/option",
+                "MDN Web Docs - <style>": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/style",
+                "W3Schools - placeholder": "https://www.w3schools.com/jsref/prop_text_placeholder.asp",
+                "W3Schools - propriedade checked": "https://www.w3schools.com/jsref/prop_checkbox_checked.asp",
+                "MDN Web Docs - propriedade selectedIndex": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/selectedIndex"
             } 
         }
     ]
