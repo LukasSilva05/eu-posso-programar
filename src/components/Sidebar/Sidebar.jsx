@@ -28,7 +28,7 @@ export default function Sidebar() {
                         onClick={() => toggleMenu()}
                         className={`-ml-px block overflow-hidden text-ellipsis whitespace-nowrap border-l border-zinc-800 pl-3 text-sm transition duration-200 ${
                           pathname == route
-                            ? "border-white text-white"
+                            ? "border-l-white text-white"
                             : "text-zinc-500 hover:border-white hover:text-white"
                         }`}
                         href={route}
