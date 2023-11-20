@@ -48,10 +48,10 @@ export default function page({ params }) {
       </h1>
       <div className="border-b border-zinc-800"></div>
       <ul className="py-5">
-        {Object.keys(addons).map((addonTitle) => {
+        {Object.keys(addons).map((addonTitle, index) => {
           return (
             <li
-              key={addonTitle}
+              key={index}
               className="my-[10px] flex items-center gap-1 max-sm:text-[14px]"
             >
               <Link
