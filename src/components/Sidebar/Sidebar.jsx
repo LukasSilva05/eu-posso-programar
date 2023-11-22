@@ -12,7 +12,7 @@ export default function Sidebar() {
   return (
     <nav
       id="sidebar"
-      className="fixed inset-0 top-[65px] z-20 block w-[320px] overflow-auto whitespace-nowrap border-r border-zinc-800 transition-[width] duration-300 scrollbar scrollbar-thumb-zinc-400/30 scrollbar-thumb-rounded-full scrollbar-w-[3px] max-xl:w-[300px] max-lg:w-0 max-lg:bg-zinc-900 max-sm:top-[60px]"
+      className="fixed inset-0 top-[65px] z-20 block w-[320px] overflow-auto whitespace-nowrap border-r border-zinc-800 transition-[width] duration-300 scrollbar scrollbar-thumb-zinc-400/30 scrollbar-thumb-rounded-full scrollbar-w-[3px] max-xl:w-[300px] max-lg:w-0 max-lg:bg-zinc-900 max-sm:top-[61px]"
     >
       <ul className="my-5 ml-4 mr-3">
         {topics.map((topic, index) => {
