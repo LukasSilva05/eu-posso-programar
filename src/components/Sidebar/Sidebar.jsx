@@ -1,12 +1,26 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import videos from "../../json/videos.json";
 import toggleMenu from "../functions/toggleMenu";
 import handleString from "@/functions/handleString";
 
 export default function Sidebar() {
+ /*  const [videosOfAPI, setVideosOfAPI] = useState({});
+
+  useEffect(() => {
+    async function fetchVideos() {
+      const response = await fetch("https://api-videos-z2hp.onrender.com");
+      const data = await response.json();
+      setVideosOfAPI(data);
+    }
+
+    fetchVideos();
+  }, []);
+  
+  const topics = Object.keys(videosOfAPI); */
   const pathname = usePathname();
   const topics = Object.keys(videos);
   return (
@@ -21,7 +35,9 @@ export default function Sidebar() {
               <h2 className="text-sm font-bold text-white">{topic}</h2>
               <ul className="mx-3 my-5 border-l border-zinc-800">
                 {videos[topic].map((video, index) => {
-                  const route = `/${handleString(topic)}/${handleString(video.title)}`;
+                  const route = `/${handleString(topic)}/${handleString(
+                    video.title,
+                  )}`;
                   return (
                     <li key={index} className="my-[10px]">
                       <Link

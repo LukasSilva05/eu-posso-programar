@@ -7,15 +7,15 @@ import PrevSvgComponent from "@/components/Svgs/PrevSvgComponent";
 import Button from "@/components/NextAndPrevButton/Button";
 
 export async function generateMetadata({ params }) {
-  const [previousVideo, currentVideo, nextVideo] = getVideos(params.title);
+  const [previousVideo, currentVideo, nextVideo] = await getVideos(params.title);
 
   return {
     title: `${currentVideo.props.title} | Eu posso programar`,
   };
 }
 
-export default function page({ params }) {
-  const [previousVideo, currentVideo, nextVideo] = getVideos(params.title);
+export default async function page({ params }) {
+  const [previousVideo, currentVideo, nextVideo] = await getVideos(params.title);
 
   const addons = currentVideo.props.complements;
 
