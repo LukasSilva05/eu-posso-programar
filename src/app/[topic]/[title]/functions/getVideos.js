@@ -1,12 +1,16 @@
 import videos from "../../../../json/videos.json";
-import handleString from "@/functions/handleString";
+import handleString from "@/components/functions/handleString";
 
 export default function getVideos(title) {
-  const arrayVideos = []
+  const arrayVideos = [];
 
-  Object.keys(videos).forEach(topic => videos[topic].forEach(video => arrayVideos.push({ topic, props: video })))
+  Object.keys(videos).forEach((topic) =>
+    videos[topic].forEach((video) => arrayVideos.push({ topic, props: video })),
+  );
 
-  const currentId = arrayVideos.findIndex(video => handleString(video.props.title) === title)
+  const currentId = arrayVideos.findIndex(
+    (video) => handleString(video.props.title) === title,
+  );
 
   return [
     arrayVideos[currentId - 1],

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import handleString from "@/functions/handleString";
+import handleString from "@/components/functions/handleString";
 export default function Button({ video, SvgComponent, textButton }) {
   return (
     <Link

@@ -1,7 +1,7 @@
-'use client'
+"use client";
 
 import videos from "../../json/videos.json";
-import handleString from "@/functions/handleString";
+import handleString from "@/components/functions/handleString";
 import ItemVideo from "./components/ItemVideo";
 
 export default /* async */ function Sidebar() {
@@ -23,8 +23,12 @@ export default /* async */ function Sidebar() {
               {topic}
               <ul className="mx-3 my-5 border-l border-zinc-800">
                 {videos[topic].map((video, index) => {
-                  const route = `/${handleString(topic)}/${handleString(video.title)}`;
-                  return <ItemVideo key={index} title={video.title} route={route} />
+                  const route = `/${handleString(topic)}/${handleString(
+                    video.title,
+                  )}`;
+                  return (
+                    <ItemVideo key={index} title={video.title} route={route} />
+                  );
                 })}
               </ul>
             </li>
