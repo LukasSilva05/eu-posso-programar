@@ -12,7 +12,7 @@ export default function Topbar() {
       <div className="flex items-center gap-2">
         <button
           onClick={() => toggleMenu()}
-          className="hidden rounded-sm p-1 hover:bg-zinc-800 max-lg:block"
+          className="hidden p-1 max-lg:block"
         >
           <Image src={menuIcon} alt="toggleButton" width={18} />
         </button>
