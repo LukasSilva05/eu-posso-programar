@@ -1,27 +1,15 @@
-"use client";
+'use client'
 
-import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
-import Link from "next/link";
 import videos from "../../json/videos.json";
-import toggleMenu from "../functions/toggleMenu";
 import handleString from "@/functions/handleString";
+import ItemVideo from "./components/ItemVideo";
 
-export default function Sidebar() {
- /*  const [videosOfAPI, setVideosOfAPI] = useState({});
+export default /* async */ function Sidebar() {
+  /* const response = await fetch("https://api-videos-z2hp.onrender.com");
+  const videosOfApi = await response.json();
 
-  useEffect(() => {
-    async function fetchVideos() {
-      const response = await fetch("https://api-videos-z2hp.onrender.com");
-      const data = await response.json();
-      setVideosOfAPI(data);
-    }
+  const topics = Object.keys(videosOfApi); */
 
-    fetchVideos();
-  }, []);
-  
-  const topics = Object.keys(videosOfAPI); */
-  const pathname = usePathname();
   const topics = Object.keys(videos);
   return (
     <nav
@@ -31,28 +19,12 @@ export default function Sidebar() {
       <ul className="my-5 ml-4 mr-3">
         {topics.map((topic, index) => {
           return (
-            <li key={index}>
-              <h2 className="text-sm font-bold text-white">{topic}</h2>
+            <li key={index} className="text-sm font-bold text-white">
+              {topic}
               <ul className="mx-3 my-5 border-l border-zinc-800">
                 {videos[topic].map((video, index) => {
-                  const route = `/${handleString(topic)}/${handleString(
-                    video.title,
-                  )}`;
-                  return (
-                    <li key={index} className="my-[10px]">
-                      <Link
-                        onClick={() => toggleMenu()}
-                        className={`-ml-px block overflow-hidden text-ellipsis whitespace-nowrap border-l border-zinc-800 pl-3 text-sm transition duration-200 ${
-                          pathname == route
-                            ? "border-l-white text-white"
-                            : "text-zinc-500 hover:border-white hover:text-white"
-                        }`}
-                        href={route}
-                      >
-                        {video.title}
-                      </Link>
-                    </li>
-                  );
+                  const route = `/${handleString(topic)}/${handleString(video.title)}`;
+                  return <ItemVideo key={index} title={video.title} route={route} />
                 })}
               </ul>
             </li>

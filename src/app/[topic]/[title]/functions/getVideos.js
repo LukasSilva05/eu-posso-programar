@@ -30,5 +30,4 @@ export default function getVideos(title) {
     arrayVideos[currentId],
     arrayVideos[currentId + 1],
   ];
-}
- */
+} */
