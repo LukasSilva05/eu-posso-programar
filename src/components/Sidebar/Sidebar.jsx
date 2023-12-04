@@ -1,10 +1,8 @@
-"use client";
-
 import videos from "../../json/videos.json";
 import handleString from "@/components/functions/handleString";
 import ItemVideo from "./components/ItemVideo";
 
-export default /* async */ function Sidebar() {
+export default async function Sidebar() {
   /* const response = await fetch("https://api-videos-z2hp.onrender.com");
   const videosOfApi = await response.json();
 
